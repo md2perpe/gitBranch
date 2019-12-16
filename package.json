@@ -100,6 +100,7 @@
     }
   },
   "scripts": {
+    "build": "tsc",
     "vscode:prepublish": "webpack --mode production",
     "compile": "webpack --mode none",
     "watch": "webpack --mode none --watch",
